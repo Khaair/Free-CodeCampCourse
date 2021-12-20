@@ -17,3 +17,6 @@ function convertToInteger(str) {
        const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 
        const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+       let ourStr = "I come first. ";
+       ourStr += "I come second.";

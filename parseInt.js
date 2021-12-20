@@ -24,3 +24,10 @@ function convertToInteger(str) {
        // Only change code below this line
 const myName = "freeCodeCamp";
 const myStr = "Hello, our name is" + myName + ", how are you? ";
+
+
+// Change code below this line
+const someAdjective = "awesome";
+let myStr = "Learning to code is ";
+
+myStr += someAdjective

@@ -31,3 +31,11 @@ function myLocalScope() {
   // Run and check the console
   // myVar is not defined outside of myLocalScope
   console.log('outside myLocalScope', myVar);
+
+  function myTest() {
+    const loc = "foo";
+    console.log(loc);
+  }
+  
+  myTest();
+  console.log(loc);

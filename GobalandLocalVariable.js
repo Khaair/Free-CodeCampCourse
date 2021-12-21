@@ -39,3 +39,16 @@ function myLocalScope() {
   
   myTest();
   console.log(loc);
+
+  // Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+
+  // Only change code above this line
+  let outerWear = "sweater"
+  return outerWear;
+}
+
+myOutfit();
